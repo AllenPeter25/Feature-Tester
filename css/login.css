@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+body{
+    margin: 0 auto;
+    overflow: hidden;
+    font-family: 'Poppins';
+}
+
+.bg-img{
+    position: absolute;
+}
+
+.organization{
+    position: relative;
+    display: flex;
+    padding-top: 16px;
+    margin-left: 32px;
+}
+
+.organization__logo{
+    padding-top: 11px;
+}
+
+.organization__name{
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.organization__product{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #3498DB;
+    margin: 0px 32px 0px auto;
+}
+
+.login{
+    position: relative;
+    padding-right: 15%;
+    margin-top: 12%;
+    margin-left: auto;
+    width: 302px;
+    align-items: right;
+}
+
+.login__title{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.login__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login__form--labeltheme{
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    color: #7F8C8D;
+}
+
+.login__form--inputtheme{
+    height: 26px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    border: none;
+    border-bottom: 1px solid #BDC3C7;
+    margin-bottom: 16px;
+}
+
+.login__form--inputtheme:focus{
+    outline: none;
+}
+
+.login__form--buttontheme{
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: white;
+    background-color: #2980B9;
+    border: none;
+    border-radius: 4px;
+    width:112px;
+    height:27px;
+    margin: 0 auto;
+    cursor:pointer;
+    margin-bottom: 16px;
+    transition:0.3s;
+}
+
+.login__form--buttontheme:hover{
+    scale: 1.1;
+    background-color: #3498DB;
+}
+
+.login__alternatives{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #4C5862;
+    margin: 0;
+}
+
+.login__alternatives--link {
+    color: #3498DB;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.login__alternatives--link:hover{
+    color: #75b6e1;
+}
