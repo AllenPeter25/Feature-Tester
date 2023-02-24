@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+body {
+   background-color:  #E5E5E5;
+   margin: 0 auto;
+   font-family: 'Poppins';
+   overflow-x: hidden;
+   /* overflow-y: hidden; */
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    padding: 0px 26px 0 24px;
+}
+
+.header__product-name{
+    margin: 17px 0px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #3498DB;
+}
+
+.header__notification-icon{
+    margin: 20.5px 0px 20px auto;
+    cursor: pointer;
+}
+
+.header__profile-icon{
+    margin: 18px 0 18px 20px;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+}
+
+.sidebar {
+    margin-right: 36px;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 23.5px;
+    height: 100vh;
+    width: 200px;
+    transition: width 0.5s;
+}
+
+.sidebar--width{
+    width: 60px;
+}
+
+.sidebar__links {
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+    padding: 0 24px 0 25px;
+    transition: width 1s ease-in-out;
+}
+
+.sidebar__links--text-black {
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    color: #34495E;
+    margin-right: 60px;
+    padding-top: 4px;
+    transition: ease-in-out 0.2s;
+}
+
+.sidebar__links--text-blue {
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    color: #3498DB;
+    padding-top: 4px;
+    transition: ease-in-out 0.2s;
+}
+
+.sidebar__hr {
+    height: 2px;
+    background: #ECF0F1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sidebar__links--toggle-theme {
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 0.01em;
+    color: #BDC3C7;
+    transition: ease-in-out 0.2s;
+}
+
+.sidebar-toggle{
+    margin-top: 50vh;
+}
+
+.collapse{
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.expand-btn{
+    rotate: 180deg;
+}
+
+.sidebar__links:hover .icon {
+    fill: #3498DB;
+}
+
+.sidebar__links:hover .sidebar__links--text-black{
+    transition: 0s;
+    color: #3498DB;;
+}
+
+.sidebar__links:hover .sidebar__links--toggle-theme{
+    color: #3498DB;
+}
+
+.deals {
+    margin-top: 36px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+    padding-bottom: 18px;
+    /* padding-right: 20px; */
+}
+
+.deals__header{
+    display: flex;
+    padding: 20px;
+}
+
+.deals__header--shows{
+    margin-left: auto;
+}
+
+.deals__legend {
+    margin-top: 16px;
+    margin-left: 24px;
+    margin-bottom: 19px;
+    color: #192A3E;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+}
+
+.deals__y-axis {
+    margin-top: 19px;
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #4C5862;
+    padding-right: 20px;
+}
+
+.deals__x-axis{
+    display: flex;
+    margin-left: 49px;
+    margin-top: 15px;
+    gap: 64px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #4C5862;
+}
+
+.deals__graph, .deals__graph-outline{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 33px;
+}
+
+.tasks {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+.tasks__header{
+    display: flex;
+    padding: 20px;
+}
+
+.tasks__header--shows{
+    margin-left: auto;
+}
+
+.tasks__progress--green{
+    position: absolute;
+    z-index: 2;
+    margin-left: 48px;
+    margin-top: 30px;
+}
+
+.tasks__progress--red{
+    position: absolute;
+    margin-left: 48px;
+    margin-top: 30px;
+}
+
+.tasks__progress--yellow{
+    margin-left: 48px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.tasks__progress--complete {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 110px;
+}
+
+.tasks__progress{
+    display: flex;
+    flex-direction: row;
+}
+
+.tasks__legend {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 109px;
+    margin-left: 26px;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.01em;
+    color: #212121;
+}
