@@ -16,5 +16,41 @@
         "status": "Completed",
         "location" : "Germany, Berlin, Rathausstraße 5",
         "name" : "George Fields"
+    },
+    {
+        "title":"Berlin University iPad Pro 2020 (25 items)",
+        "status": "In progress",
+        "location" : "Germany, Berlin, Kaiserswerther Str. 16-18",
+        "name" : "George Fields"
+    },
+    {
+        "title":"Leipzig Coffee Shop iPhone 12 Mini (6 items)",
+        "status": "In progress",
+        "location" : "Germany, Leipzig, Riemannstraße 44",
+        "name" : "George Fields"
+    },
+    {
+        "title":"Berlin Post Office (156 items)",
+        "status": "Completed",
+        "location" : "Germany, Berlin, Rathausstraße 5",
+        "name" : "George Fields"
+    },
+    {
+        "title":"Berlin University iPad Pro 2020 (25 items)",
+        "status": "In progress",
+        "location" : "Germany, Berlin, Kaiserswerther Str. 16-18",
+        "name" : "George Fields"
+    },
+    {
+        "title":"Leipzig Coffee Shop iPhone 12 Mini (6 items)",
+        "status": "Completed",
+        "location" : "Germany, Leipzig, Riemannstraße 44",
+        "name" : "George Fields"
+    },
+    {
+        "title":"Berlin Post Office (156 items)",
+        "status": "Completed",
+        "location" : "Germany, Berlin, Rathausstraße 5",
+        "name" : "George Fields"
     }
 ]

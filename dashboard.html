@@ -76,7 +76,12 @@
         <div class="task-status">
             <div class="task-status__heading">
                 <p>8 task completed out of 10</p>
-                <p>Show: This Week</p>
+                <p>Show: <span class="dropdown"> This Week</span>
+                    <svg width="7" height="3" viewBox="0 0 7 3"  fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.5 3L0.468911 -9.41288e-08L6.53109 4.35844e-07L3.5 3Z" fill="#AEAEAE"/>
+                    </svg>
+                </p>
+                <p class="task-status__heading--selector">This week</p>
             </div>
             <progress class="task-status__progress-bar" max="100" value="70"></progress>
             <p class="task-status__date">23 December, Sunday</p>
@@ -112,14 +117,19 @@
             </div>
             <div class="sidebar__hr"></div>
             <div class="task-status__data-list">
-                
             </div>
+            <p class="task-status__show-more">Show more</p>
         </div>
         <div>
             <div class="deals">
                 <div class="deals__header">
                     <p>Deals</p>
-                    <p class="deals__header--shows">show: Monthly</p>
+                    <p class="deals__header--shows">show: <span class="dropdown">Monthly</span>
+                        <svg width="7" height="3" viewBox="0 0 7 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.5 3L0.468911 -9.41288e-08L6.53109 4.35844e-07L3.5 3Z" fill="#AEAEAE"/>
+                        </svg>                            
+                    </p>
+                    <p class="deals_header--selector" style="position: absolute;">This week</p>
                 </div>
                 <div class="sidebar__hr"></div>
                 <p class="deals__legend">
@@ -156,7 +166,12 @@
             <div class="tasks">
                 <div class="tasks__header">
                     <p>Tasks</p>
-                    <p class="tasks__header--shows">show: Monthly</p>                       
+                    <p class="tasks__header--shows">show: <span class="dropdown">This Month</span>
+                        <p class="tasks__header--selector">This Month</p>
+                        <svg width="7" height="3" viewBox="0 0 7 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.5 3L0.468911 -9.41288e-08L6.53109 4.35844e-07L3.5 3Z" fill="#AEAEAE"/>
+                        </svg>                            
+                    </p>                       
                 </div>
                 <div class="sidebar__hr"></div>
                 <div class="tasks__progress">
