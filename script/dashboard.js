@@ -10,6 +10,7 @@ document.querySelectorAll(".sidebar__links")[5].addEventListener('click',() => {
     })
     document.querySelector(".sidebar").classList.toggle("sidebar--width")
     document.querySelectorAll(".sidebar__links")[5].childNodes[1].classList.toggle("expand-btn")
+    document.querySelector(".task-status").classList.toggle("task-status--sidebar-collape")
 })
 
 fetch('/data.json').then(response => {
