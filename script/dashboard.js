@@ -13,7 +13,7 @@ document.querySelectorAll(".sidebar__links")[5].addEventListener('click',() => {
     document.querySelector(".task-status").classList.toggle("task-status--sidebar-collape")
 })
 
-fetch('/data.json').then(response => {
+fetch('/data/data.json').then(response => {
     return response.json();
   }).then(data => {
 

@@ -1,0 +1,42 @@
+[
+    {
+        "title" :"Berlin University iPad Pro 2020 (25 items)",
+        "due" : "August 17, 2021",
+        "status": "In Progress",
+        "location" : "Germany, Berlin, Kaiserswerther Str. 16-18",
+        "name" : "Aldrich Vogel",
+        "items" : ["x12 iPad Pro 2020", "x12 Extended Apple Warranty (5 years)","Delivery"]
+    },
+    {
+        "title" :"Leipzig Coffee Shop iPhone 12 Mini (6 items)",
+        "due" : "July 30, 2021",
+        "status": "In Progress",
+        "location" : "Germany, Leipzig, Riemannstraße 44",
+        "name" : "Aldrich Vogel",
+        "items" : ["x5 iPhone 12 Mini","Delivery"]
+    },
+    {
+        "title" :"Berlin Post Office (156 items)",
+        "due" : "June 5, 2021",
+        "status": "Completed",
+        "location" : "Germany, Berlin, Rathausstraße 5",
+        "name" : "Aldrich Vogel",
+        "items" : ["x40 iPad Pro 2021 11\"", "x40 Extended Apple Warranty (5 years)","x10 iPhone 12 Pro"]
+    },
+    {
+        "title" :"Halle Tech Shop (2 items)",
+        "due" : "June 1, 2021",
+        "status": "Completed",
+        "location" : "Germany, Halle (Saale), Brüderstraße 13",
+        "name" : "Aldrich Vogel",
+        "items" : ["iMac Pro 2020","Delivery"]
+    },
+    {
+        "title" :"Magdeburg Kindergarden (2 items)",
+        "due" : "July 3, 2021",
+        "status": "Cancelled",
+        "location" : "Germany, Magdeburg, Hegelstraße 17",
+        "name" : "Aldrich Vogel",
+        "items" : ["ipad Pro 2021","Delivery"]
+    }
+]

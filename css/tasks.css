@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 body {
-   background-color:  #E5E5E5;
+   background-color:  #E5E5E5;;
    margin: 0 auto;
    font-family: 'Poppins';
    overflow-x: hidden;
@@ -131,4 +131,142 @@ a {
 
 .sidebar__links:hover .sidebar__links--toggle-theme{
     color: #3498DB;
+}
+
+.task-container {
+    margin-left: 230px;
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(2, auto );
+    column-gap: 16px;
+    transition: 0.6s;
+}
+
+.task-container__listview {
+    display: flex;
+    flex-direction: column;
+}
+
+.task-container__function-bar{
+    display: flex;
+    gap: 15px;
+    margin-left: auto;
+    padding-right: 10px;
+    margin-bottom: 21px;
+}
+
+
+.icons:hover {
+    cursor: pointer;
+    fill: #3498DB;
+}
+
+.task-container__function-bar--listview {
+    
+}
+
+.task-container--sidebar-collape{
+    margin-left: 110px;
+}
+
+.task-container__list--card{
+    padding: 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    margin-bottom: 15px;
+    min-width: 590px;
+}
+
+.task-container__list--card--list-view{
+    width: 1200px;
+}
+
+.task-container__list--card >p{
+    margin-bottom: 8px;
+}
+
+.task-container__list1{
+}
+
+.task-container__list2{
+}
+
+.task-container__list--card--header{
+    display: flex;
+    margin-bottom: 7px;
+}
+
+.task-container__list--card--header--title{
+    font-size: 15px;
+    color: #212121;
+    display: inline-block;
+}
+
+.task-container__list--card--header--Inprogress{
+    margin-top: -5px;
+    padding: 4px 8px;
+    background: #F39C12;
+    border-radius: 4px;
+    color: white;
+    font-size: 11px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.task-container__list--card--header--completed{
+    margin-top: -5px;
+    padding: 4px 8px;
+    background: #2ECC71;
+    border-radius: 4px;
+    color: white;
+    font-size: 11px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.task-container__list--card--header--cancelled{
+    margin-top: -5px;
+    padding: 4px 8px;
+    background: #E74C3C;
+    border-radius: 4px;
+    color: white;
+    font-size: 11px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.details{
+    font-size: 13px;
+    color: #7F8C8D;
+    opacity: 0.5;
+    margin-bottom: 18px;
+}
+
+.task-container__list--card--font {
+    font-size: 13px;
+    color: #7F8C8D;
+}
+
+li{
+    margin-bottom: 6px;
+}
+
+.duedate{
+    margin-right: 15px;
+}
+
+.location{
+    margin-right: 19px;
+}
+
+.list{
+    margin-top: 3.5px;
+    margin-left: 40px;
+}
+
+.more {
+    margin-top: -5px;
+    margin-left: auto;
+    cursor: pointer;
 }
