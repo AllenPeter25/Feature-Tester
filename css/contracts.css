@@ -140,6 +140,11 @@ a {
 .content-wrapper{
     margin-top: 100px;
     margin-left: 250px;
+    transition: 0.5s;
+}
+
+.content-wrapper--sidebar-collape{
+    margin-left: 110px;
 }
 
 .content-wrapper__function-bar{
