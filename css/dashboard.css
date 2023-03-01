@@ -29,6 +29,10 @@ body {
     cursor: pointer;
 }
 
+.header__notification-icon:hover .notification{
+    fill: #3498DB;
+}
+
 .header__profile-icon{
     margin: 18px 0 18px 20px;
     cursor: pointer;
@@ -370,6 +374,7 @@ color: #6A707E;
     font-size: 11px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    transition: 200ms;
 }
 
 .task-status__data-list--title--completed{
@@ -381,6 +386,15 @@ color: #6A707E;
     font-size: 11px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    transition: 100ms;
+}
+
+.task-status__data-list--title--inprogress:hover{
+    background: #f7ac35;
+}
+
+.task-status__data-list--title--completed:hover{
+    background: #53d68a;
 }
 
 .task-status__show-more{

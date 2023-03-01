@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/dashboard.css">
-    <script src="/script/dashboard.js" defer></script>
-    <title>Dashboard</title>
+    <link rel="stylesheet" href="/css/contracts.css">
+    <script src="/script/contracts.js" defer></script>
+    <title>Task</title>
 </head>
 <body>
     <div class="header">
         <p class="header__product-name">Feature Tester</p>
         <svg class="header__notification-icon" width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path class="notification" d="M8 20C9.1 20 10 19.1 10 18H6C6 19.1 6.9 20 8 20ZM14 14V9C14 5.93 12.37 3.36 9.5 2.68V2C9.5 1.17 8.83 0.5 8 0.5C7.17 0.5 6.5 1.17 6.5 2V2.68C3.64 3.36 2 5.92 2 9V14L0 16V17H16V16L14 14ZM12 15H4V9C4 6.52 5.51 4.5 8 4.5C10.49 4.5 12 6.52 12 9V15Z" fill="#7F8C8D"/>
+            <path d="M8 20C9.1 20 10 19.1 10 18H6C6 19.1 6.9 20 8 20ZM14 14V9C14 5.93 12.37 3.36 9.5 2.68V2C9.5 1.17 8.83 0.5 8 0.5C7.17 0.5 6.5 1.17 6.5 2V2.68C3.64 3.36 2 5.92 2 9V14L0 16V17H16V16L14 14ZM12 15H4V9C4 6.52 5.51 4.5 8 4.5C10.49 4.5 12 6.52 12 9V15Z" fill="#7F8C8D"/>
         </svg>       
         <svg class="header__profile-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <circle cx="12" cy="12" r="11.5" fill="url(#pattern0)" stroke="#BDC3C7"/>
@@ -27,12 +27,14 @@
     </div>
     <div class="container">
         <div class="sidebar">
-            <div class="sidebar__links">
-                <svg style="min-width: 18px;" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path class="icon" d="M16 2V4H12V2H16ZM6 2V8H2V2H6ZM16 10V16H12V10H16ZM6 14V16H2V14H6ZM18 0H10V6H18V0ZM8 0H0V10H8V0ZM18 8H10V18H18V8ZM8 12H0V18H8V12Z" fill="#3498DB"/>
-                </svg>  
-                <p class="sidebar__links--text-blue">Dashboard</p>
-            </div>
+            <a href="/dashboard.html">
+                <div class="sidebar__links">
+                    <svg width="18" height="18" style="min-width: 18px;" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="icon" d="M16 2V4H12V2H16ZM6 2V8H2V2H6ZM16 10V16H12V10H16ZM6 14V16H2V14H6ZM18 0H10V6H18V0ZM8 0H0V10H8V0ZM18 8H10V18H18V8ZM8 12H0V18H8V12Z" fill="#BDC3C7"/>
+                    </svg>                     
+                    <p class="sidebar__links--text-black">Dashboard</p>
+                </div>
+            </a>
             <a href="tasks.html">
                 <div class="sidebar__links">
                     <svg style="min-width: 19px;" width="19" height="16" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -49,12 +51,12 @@
                     <p class="sidebar__links--text-black">Products</p>
                 </div>
             </a>
-            <a href="/contracts.html">
+            <a href="">
                 <div class="sidebar__links">
-                    <svg style="min-width: 20px;" width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path class="icon" d="M12 4V2H8V4H12ZM2 6V17H18V6H2ZM18 4C19.11 4 20 4.89 20 6V17C20 18.11 19.11 19 18 19H2C0.89 19 0 18.11 0 17L0.00999999 6C0.00999999 4.89 0.89 4 2 4H6V2C6 0.89 6.89 0 8 0H12C13.11 0 14 0.89 14 2V4H18Z" fill="#BDC3C7"/>
-                    </svg>                    
-                    <p class="sidebar__links--text-black">Contracts</p>
+                    <svg width="20" height="19" style="min-width: 20px;" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 4V2H8V4H12ZM2 6V17H18V6H2ZM18 4C19.11 4 20 4.89 20 6V17C20 18.11 19.11 19 18 19H2C0.89 19 0 18.11 0 17L0.00999999 6C0.00999999 4.89 0.89 4 2 4H6V2C6 0.89 6.89 0 8 0H12C13.11 0 14 0.89 14 2V4H18Z" fill="#3498DB"/>
+                    </svg>                                           
+                    <p class="sidebar__links--text-blue">Contracts</p>
                 </div>
             </a>
             <div class="sidebar__hr"></div>
@@ -71,134 +73,6 @@
                     <path class="icon" d="M7.41 1.41L6 0L0 6L6 12L7.41 10.59L2.83 6L7.41 1.41Z" fill="#BDC3C7"/>
                 </svg>
                 <p class="sidebar__links--toggle-theme">Toggle sidebar</p>
-            </div>
-        </div>
-        <div class="task-status">
-            <div class="task-status__heading">
-                <p>8 task completed out of 10</p>
-                <p>Show: <span class="dropdown"> This Week</span>
-                    <svg style="margin-bottom: 3px;" width="7" height="3" viewBox="0 0 7 3"  fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3.5 3L0.468911 -9.41288e-08L6.53109 4.35844e-07L3.5 3Z" fill="#AEAEAE"/>
-                    </svg>
-                </p>
-                <p class="task-status__heading--selector">This week</p>
-            </div>
-            <progress class="task-status__progress-bar" max="100" value="70"></progress>
-            <p class="task-status__date">23 December, Sunday</p>
-            <div class="task-status__dateselector">
-                <div class="task-status__dates">
-                    <p class="task-status__dateselector--day">Sun</p>
-                    <p class="task-status__dateselector--selecteddate">23</p>
-                </div>
-                <div class="task-status__dates">
-                    <p class="task-status__dateselector--day">Mon</p>
-                    <p>24</p>
-                </div>
-                <div class="task-status__dates">
-                    <p class="task-status__dateselector--day">Tue</p>
-                    <p>25</p>
-                </div>
-                <div class="task-status__dates">
-                    <p class="task-status__dateselector--day">Wed</p>
-                    <p>26</p>
-                </div>
-                <div class="task-status__dates">
-                    <p class="task-status__dateselector--day">Thu</p>
-                    <p>27</p>
-                </div>
-                <div class="task-status__dates">
-                    <p class="task-status__dateselector--day">Fri</p>
-                    <p>28</p>
-                </div>
-                <div class="task-status__dates">
-                    <p class="task-status__dateselector--day">Sat</p>
-                    <p>29</p>
-                </div>
-            </div>
-            <div class="sidebar__hr"></div>
-            <div class="task-status__data-list">
-            </div>
-            <p class="task-status__show-more">Show more</p>
-        </div>
-        <div>
-            <div class="deals">
-                <div class="deals__header">
-                    <p>Deals</p>
-                    <p class="deals__header--shows">show: <span class="dropdown">Monthly</span>
-                        <svg style="margin-bottom: 2px;" width="7" height="3" viewBox="0 0 7 3" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3.5 3L0.468911 -9.41288e-08L6.53109 4.35844e-07L3.5 3Z" fill="#AEAEAE"/>
-                        </svg>                            
-                    </p>
-                    <p class="deals_header--selector" style="position: absolute;">This week</p>
-                </div>
-                <div class="sidebar__hr"></div>
-                <p class="deals__legend">
-                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="4" cy="4" r="3" stroke="#109CF1" stroke-width="2"/>
-                    </svg> 
-                    &nbsp; closed Deals</p>
-                    <svg class="deals__graph" width="365" height="149" viewBox="0 0 365 149" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path opacity="0.2" d="M59.7189 61.9881C30.1852 61.1183 2.10059 101.967 -5.5 119V150H386.5L373 15.5C343 23 311 8 301.852 7.62648C281.222 7.62648 250.458 50.3903 236.704 72.8595C225.412 92.8643 211.007 97.1406 205.216 96.7782C178.288 97.648 157.803 52.9274 150.926 30.4583C144.846 5.23449 138 0.0162312 134.639 0.016262C129 1.86265e-08 120.524 7.40933 111.837 32.6327C103.151 57.8562 89.3974 64.8869 83.6065 65.2493C75.5067 65.7562 65.8718 61.9879 59.7189 61.9881Z" fill="url(#paint0_linear_5046_2508)"/>
-                        <defs>
-                        <linearGradient id="paint0_linear_5046_2508" x1="190.5" y1="0.0162354" x2="190" y2="150" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#109CF1"/>
-                        <stop offset="1" stop-color="#109CF1" stop-opacity="0"/>
-                        </linearGradient>
-                        </defs>
-                    </svg>
-                    <svg class="deals__graph-outline" width="365" height="121" viewBox="0 0 365 121" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M-5.5 120C2.10059 102.967 30.1852 62.1183 59.7189 62.9881C65.8718 62.9879 75.5067 66.7562 83.6065 66.2493C89.3974 65.8869 103.151 58.8562 111.837 33.6327C120.524 8.40933 129 1 134.639 1.01626C138 1.01623 144.846 6.23449 150.926 31.4583C157.803 53.9274 178.288 98.648 205.216 97.7782C211.007 98.1406 225.412 93.8643 236.704 73.8595C250.458 51.3903 281.222 8.62648 301.852 8.62648C311 9 343 24 373 16.5" stroke="#109CF1" stroke-width="2" stroke-linejoin="round"/>
-                    </svg>
-                    <div class="deals__y-axis">
-                        <p>200 &nbsp;----------------------------------------------</p>
-                        <p>150  &nbsp;----------------------------------------------</p>
-                        <p>100  &nbsp;----------------------------------------------</p>
-                        <p>50  &nbsp;----------------------------------------------</p>
-                        <p>0  &nbsp; &nbsp;----------------------------------------------</p>
-                    </div>                                
-                <div class="deals__x-axis">
-                    <p>1 Dec</p>
-                    <p>8 Dec</p>
-                    <p>16 Dec</p>
-                    <p>31 Dec</p>
-                </div>
-            </div>
-            <div class="tasks">
-                <div class="tasks__header">
-                    <p>Tasks</p>
-                    <p class="tasks__header--shows">show: <span class="dropdown">This Month</span>
-                        <p class="tasks__header--selector">This Month</p>
-                        <svg style="margin-top: 5px;margin-left:2px" width="7" height="3" viewBox="0 0 7 3" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3.5 3L0.468911 -9.41288e-08L6.53109 4.35844e-07L3.5 3Z" fill="#AEAEAE"/>
-                        </svg>                            
-                    </p>                       
-                </div>
-                <div class="sidebar__hr"></div>
-                <div class="tasks__progress">
-                    <svg class="tasks__progress--complete" width="110" height="43" viewBox="0 0 110 43" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M21.1792 10.64C20.7685 8.92267 20.0219 7.63467 18.9392 6.776C17.8565 5.91733 16.3445 5.488 14.4032 5.488C11.4539 5.488 9.25119 6.62667 7.79519 8.904C6.33919 11.144 5.57385 14.8773 5.49919 20.104C6.46985 18.4613 7.88852 17.192 9.75519 16.296C11.6219 15.4 13.6379 14.952 15.8032 14.952C18.2672 14.952 20.4325 15.4933 22.2992 16.576C24.2032 17.6213 25.6779 19.152 26.7232 21.168C27.8059 23.184 28.3472 25.592 28.3472 28.392C28.3472 31.0053 27.8245 33.3387 26.7792 35.392C25.7712 37.4453 24.2592 39.0693 22.2432 40.264C20.2272 41.4213 17.8005 42 14.9632 42C11.1179 42 8.09385 41.16 5.89119 39.48C3.72585 37.7627 2.19519 35.3547 1.29919 32.256C0.440521 29.1573 0.0111876 25.2933 0.0111876 20.664C0.0111876 7 4.82719 0.167998 14.4592 0.167998C18.1925 0.167998 21.1232 1.176 23.2512 3.192C25.4165 5.208 26.6859 7.69066 27.0592 10.64H21.1792ZM14.4032 20.328C12.1259 20.328 10.1845 21.0187 8.57919 22.4C7.01119 23.744 6.22719 25.704 6.22719 28.28C6.22719 30.856 6.95519 32.9093 8.41119 34.44C9.90452 35.9333 11.9765 36.68 14.6272 36.68C16.9792 36.68 18.8272 35.952 20.1712 34.496C21.5525 33.04 22.2432 31.0987 22.2432 28.672C22.2432 26.1333 21.5712 24.1173 20.2272 22.624C18.9205 21.0933 16.9792 20.328 14.4032 20.328ZM35.1569 21.056C35.1569 14.5973 36.2395 9.55733 38.4049 5.936C40.6075 2.27733 44.3782 0.447998 49.7169 0.447998C55.0555 0.447998 58.8075 2.27733 60.9729 5.936C63.1755 9.55733 64.2769 14.5973 64.2769 21.056C64.2769 27.5893 63.1755 32.704 60.9729 36.4C58.8075 40.0587 55.0555 41.888 49.7169 41.888C44.3782 41.888 40.6075 40.0587 38.4049 36.4C36.2395 32.704 35.1569 27.5893 35.1569 21.056ZM58.0049 21.056C58.0049 18.032 57.7995 15.4747 57.3889 13.384C57.0155 11.2933 56.2315 9.59466 55.0369 8.288C53.8422 6.944 52.0689 6.272 49.7169 6.272C47.3649 6.272 45.5915 6.944 44.3969 8.288C43.2022 9.59466 42.3995 11.2933 41.9889 13.384C41.6155 15.4747 41.4289 18.032 41.4289 21.056C41.4289 24.192 41.6155 26.824 41.9889 28.952C42.3622 31.08 43.1462 32.7973 44.3409 34.104C45.5729 35.4107 47.3649 36.064 49.7169 36.064C52.0689 36.064 53.8422 35.4107 55.0369 34.104C56.2689 32.7973 57.0715 31.08 57.4449 28.952C57.8182 26.824 58.0049 24.192 58.0049 21.056ZM70.0239 11.032C70.0239 8.30666 70.8079 6.17866 72.3759 4.648C73.9812 3.08 76.0345 2.296 78.5359 2.296C81.0372 2.296 83.0719 3.08 84.6399 4.648C86.2452 6.17866 87.0479 8.30666 87.0479 11.032C87.0479 13.7573 86.2452 15.904 84.6399 17.472C83.0719 19.04 81.0372 19.824 78.5359 19.824C76.0345 19.824 73.9812 19.04 72.3759 17.472C70.8079 15.904 70.0239 13.7573 70.0239 11.032ZM104.184 3.024L81.8399 42H75.5679L97.9119 3.024H104.184ZM78.5359 6.16C76.1839 6.16 75.0079 7.784 75.0079 11.032C75.0079 14.3173 76.1839 15.96 78.5359 15.96C79.6559 15.96 80.5145 15.568 81.1119 14.784C81.7465 13.9627 82.0639 12.712 82.0639 11.032C82.0639 7.784 80.8879 6.16 78.5359 6.16ZM92.8159 33.936C92.8159 31.2107 93.5999 29.0827 95.1679 27.552C96.7732 25.984 98.8265 25.2 101.328 25.2C103.792 25.2 105.808 25.984 107.376 27.552C108.981 29.0827 109.784 31.2107 109.784 33.936C109.784 36.6613 108.981 38.808 107.376 40.376C105.808 41.944 103.792 42.728 101.328 42.728C98.8265 42.728 96.7732 41.944 95.1679 40.376C93.5999 38.808 92.8159 36.6613 92.8159 33.936ZM101.272 29.064C98.9199 29.064 97.7439 30.688 97.7439 33.936C97.7439 37.184 98.9199 38.808 101.272 38.808C103.624 38.808 104.8 37.184 104.8 33.936C104.8 30.688 103.624 29.064 101.272 29.064Z" fill="#2ECC71"/>
-                    </svg>                        
-                    <svg class="tasks__progress--green" width="232" height="186" viewBox="0 0 232 186" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M228 116C228 98.3253 223.817 80.9014 215.793 65.1531C207.769 49.4047 196.131 35.7791 181.832 25.3901C167.533 15.0011 150.978 8.14386 133.521 5.37892C116.064 2.61398 98.1998 4.01988 81.3901 9.48169C64.5804 14.9435 49.302 24.3061 36.804 36.8041C24.3061 49.302 14.9435 64.5804 9.48168 81.3901C4.01988 98.1998 2.61398 116.064 5.37892 133.521C8.14386 150.978 15.0012 167.533 25.3901 181.832" stroke="#2ECC71" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    <svg class="tasks__progress--red" width="232" height="227" viewBox="0 0 232 227" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M228 116C228 95.3333 222.282 75.0695 211.478 57.4514C200.674 39.8334 185.207 25.5481 166.787 16.1767C148.367 6.80528 127.713 2.71318 107.112 4.35329C86.5101 5.99341 66.7641 13.3018 50.0589 25.4695C33.3538 37.6373 20.3411 54.1899 12.4611 73.2954C4.58103 92.4009 2.14092 113.314 5.4108 133.721C8.68069 154.127 17.5331 173.231 30.9882 188.918C44.4433 204.604 61.9764 216.262 81.647 222.601" stroke="#E74C3C" stroke-width="8" stroke-linecap="round"/>
-                    </svg>             
-                    <svg class="tasks__progress--yellow" width="232" height="232" viewBox="0 0 232 232" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="116" cy="116" r="112" stroke="#F1C40F" stroke-width="8"/>
-                    </svg>
-                    <div class="tasks__legend">
-                        <p><svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="4" cy="4" r="3" stroke="#F1C40F" stroke-width="2"/>
-                            </svg>&nbsp;&nbsp;In Progress</p>
-                        <p><svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="4" cy="4" r="3" stroke="#2ECC71" stroke-width="2"/>
-                            </svg>&nbsp;&nbsp;Completed</p>
-                        <p><svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="4" cy="4" r="3" stroke="#E74C3C" stroke-width="2"/>
-                            </svg>&nbsp;&nbsp;Cancelled</p>
-                    </div>
-                </div>
             </div>
         </div>
     </div>

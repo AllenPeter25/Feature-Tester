@@ -29,6 +29,10 @@ body {
     cursor: pointer;
 }
 
+.header__notification-icon:hover .notification{
+    fill: #3498DB;
+}
+
 .header__profile-icon{
     margin: 18px 0 18px 20px;
     cursor: pointer;
@@ -156,14 +160,14 @@ a {
 }
 
 
-.icons:hover {
+.task-container__function-bar--status-buttons{
     cursor: pointer;
+}
+
+.task-container__function-bar--status-buttons:hover  path{
     fill: #3498DB;
 }
 
-.task-container__function-bar--listview {
-    
-}
 
 .task-container--sidebar-collape{
     margin-left: 110px;
@@ -179,17 +183,11 @@ a {
 }
 
 .task-container__list--card--list-view{
-    width: 1200px;
+    width: 1228px;
 }
 
 .task-container__list--card >p{
     margin-bottom: 8px;
-}
-
-.task-container__list1{
-}
-
-.task-container__list2{
 }
 
 .task-container__list--card--header{
@@ -205,35 +203,50 @@ a {
 
 .task-container__list--card--header--Inprogress{
     margin-top: -5px;
-    padding: 4px 8px;
-    background: #F39C12;
+    padding: 5px 8px;
+    background: #f0a328;
     border-radius: 4px;
     color: white;
     font-size: 11px;
     margin-left: auto;
     cursor: pointer;
+    transition: 100ms;
+}
+
+.task-container__list--card--header--Inprogress:hover{
+    background: #f8af3a;
 }
 
 .task-container__list--card--header--completed{
     margin-top: -5px;
-    padding: 4px 8px;
+    padding: 5px 8px;
     background: #2ECC71;
     border-radius: 4px;
     color: white;
     font-size: 11px;
     margin-left: auto;
     cursor: pointer;
+    transition: 100ms
+}
+
+.task-container__list--card--header--completed:hover{
+    background: #5fca8b;
 }
 
 .task-container__list--card--header--cancelled{
     margin-top: -5px;
-    padding: 4px 8px;
+    padding: 5px 8px;
     background: #E74C3C;
     border-radius: 4px;
     color: white;
     font-size: 11px;
     margin-left: auto;
     cursor: pointer;
+    transition: 100ms;
+}
+
+.task-container__list--card--header--cancelled:hover{
+    background: #f76656;
 }
 
 .details{
