@@ -1,0 +1,27 @@
+[{
+    "title" : "Deutsche Bundespost. Apple products monthly discount",
+    "status" : "Signed",
+    "Company" : "Deutsche Bundespost",
+    "Location" : "Germany, Berlin, Rathausstraße 5",
+    "Contract" : "Show condition",
+    "Assignee" : "Haydn Schäfer",
+    "name" : "Aldrich Vogel"
+},
+{
+    "title" : "Volkswagen Group. Samsung laptops discount and extended warranty for 5 years",
+    "status" : "In Progress",
+    "Company" : "Volkswagen Group",
+    "Location" : "Germany, Wolfsburg, Poststraße 28",
+    "Contract" : "Show condition",
+    "Assignee" : "Haydn Schäfer",
+    "name" : "Aldrich Vogel"
+},
+{
+    "title" : "Volkswagen Group. Samsung laptops discount and extended warranty for 5 years",
+    "status" : "Building",
+    "Company" : "Volkswagen Group",
+    "Location" : "Germany, Wolfsburg, Poststraße 28",
+    "Contract" : null,
+    "Assignee" : null,
+    "name" : "Aldrich Vogel"
+}]

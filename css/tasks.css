@@ -283,3 +283,13 @@ li{
     margin-left: auto;
     cursor: pointer;
 }
+
+.pfp{
+    margin-top: -7px;
+    margin-right: 10px;
+}
+
+.task-container__list--card--footer {
+    display: flex;
+    margin-top: 10px;
+}

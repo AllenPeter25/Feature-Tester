@@ -136,3 +136,149 @@ a {
 .sidebar__links:hover .sidebar__links--toggle-theme{
     color: #3498DB;
 }
+
+.content-wrapper{
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+.content-wrapper__function-bar{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 21px;
+}
+
+.contracts-list{
+    display: grid;
+    grid-template-columns: repeat(2, auto );
+    grid-gap: 16px;
+}
+
+.task-container__function-bar--add{
+    margin-left: auto;
+}
+
+.task-container__function-bar--status-buttons{
+    cursor: pointer;
+}
+
+.task-container__function-bar--status-buttons:hover .icons{
+    fill: #3498DB;
+}
+
+.contracts-list__card{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    padding: 16px;
+}
+
+.contracts-list__card--header {
+    display: flex;
+}
+
+.contracts-list__card--header--title {
+    width: 430px;
+    margin-right: 50px;
+    font-size: 15px;
+    margin-bottom: 8px;
+    color: #323C47;
+    line-height: 22px;
+}
+
+.details {
+    font-size: 13px;
+    line-height: 20px;
+    color: #7F8C8D;
+    opacity: 0.5;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    margin-right: 36px;
+}
+
+.contracts-list__card--header--signed,
+.contracts-list__card--header--inprogress,
+.contracts-list__card--header--building{
+    height: 16px;
+    width: 84px;
+    padding: 2px 8px;
+    padding-top: 3px;
+    border-radius: 4px;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.contracts-list__card--header--signed{
+    background: #2ECC71;
+}
+
+.contracts-list__card--header--inprogress {
+    background: #F39C12;
+}
+
+.contracts-list__card--header--building {
+    background: #E74C3C;
+}
+
+.contracts-list__card--header--inprogress:hover{
+    background: #f8af3a;
+}
+
+.contracts-list__card--header--signed:hover{
+    background: #5fca8b;
+}
+
+.contracts-list__card--header--building:hover{
+    background: #f76656;
+}
+
+.contracts-list__card--footer{
+    display: flex;
+    margin-top: 25px;
+}
+
+.contracts-list__card--footer-pfp{
+    margin-right: 25px;
+}
+
+.contracts-list__card--font{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #7F8C8D;
+    margin-bottom: 4px;
+}
+
+.more {
+    margin-top: 2px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.company{
+    margin-right: 28px;
+}
+
+.location {
+    margin-right: 37px;
+}
+
+.contracts-list__card--blue-link{
+    font-size: 13px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #3498DB;
+    cursor: pointer;
+}
+
+.contracts-list__card--red-link{
+    font-size: 13px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #E74C3C;
+    cursor: pointer;
+}
