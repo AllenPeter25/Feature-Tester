@@ -13,7 +13,7 @@ body {
     display: flex;
     padding: 0px 26px 0 24px;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
 }
 
 .header__product-name{
@@ -135,4 +135,119 @@ a {
 
 .sidebar__links:hover .sidebar__links--toggle-theme{
     color: #3498DB;
+}
+
+.content-wrapper{
+    margin-left: 250px;
+    margin-top: 100px;
+    transition: 0.5s;
+}
+
+.content-wrapper--sidebar-collape{
+    margin-left: 120px;
+}
+
+.carousel {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  height: 400px;
+  width: 590px;
+  margin-bottom: 20px;
+  margin-left: 320px;
+}
+
+.image-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(0);
+}
+
+img {
+  object-fit: cover;
+  height: 400px;
+  width: 590px;
+}
+
+.carousel__previous{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    z-index: 1;
+    margin-top: 150px;
+    margin-left: 15px;
+    width: 40px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding-top: 35px;
+    cursor: pointer;
+}
+
+.carousel__next{
+    position: absolute;
+    color: white;
+    margin-left: 525px;
+    font-size: 40px;
+    margin-top: -245px;
+    width: 40px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding-top: 35px;
+    cursor: pointer;
+}
+
+.function-bar {
+    display: flex;
+    margin-bottom: 16px;
+    width: 1230px;
+}
+
+.function-bar__icons{
+    margin-left: auto;
+    display: flex;
+    gap: 16px;
+}
+
+.products-list {
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 10px;
+    gap: 16px;
+    width: 1280px;
+    margin-bottom: 30px;
+}
+
+.products-list__card{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    height: 259px;
+    width: 232px;
+    border-radius: 4px;
+    padding: 16px;
+    cursor: pointer;
+}
+
+.products-list__card img{
+    width: 142px;
+    height: 179px;
+    object-fit: contain;
+    margin-top: 26px;
+    margin-left: 44px;
+    margin-bottom: 15px;
+}
+
+.function-bar__title {
+    font-size: 20px;
+    line-height: 30px;
+    color: #7F8C8D;
+}
+
+.task-container__function-bar--status-buttons {
+    cursor: pointer;
+}
+
+.task-container__function-bar--status-buttons:hover .icons{
+    fill: #3498DB;
 }
