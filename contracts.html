@@ -76,6 +76,26 @@
             </div>
         </div>
         <div class="content-wrapper">
+            <div class="content-wrapper__modal-window">
+                <div class="content-wrapper__modal-window--title">
+                    <p>New Contract</p>
+                    <p class="content-wrapper__modal-window--title--cancel">Cancel ✖</p>
+                    <p class="content-wrapper__modal-window--title--save">Save 💾</p>
+                </div>
+                <input type="text" placeholder="Contract Name">
+                <select name="" id="" >
+                    <option value="" disabled selected>Company Name</option>
+                    <option value="Netcracker">Netcracker</option>
+                    <option value="NEC">NEC</option>
+                </select>
+                <input type="text" placeholder="Address">
+                <input type="text" placeholder="Condition">
+                <select name="" id="">
+                    <option value="" disabled selected>Assignee</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                </select>
+            </div>
             <div class="content-wrapper__function-bar">
                 <svg class="task-container__function-bar--add task-container__function-bar--status-buttons " width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path class="icons" d="M14 8H8V14H6V8H0V6H6V0H8V6H14V8Z" fill="#7F8C8D"/>
@@ -94,5 +114,6 @@
             </div>
         </div>
     </div>
+    <div class="overlay hidden"></div>
 </body>
 </html>

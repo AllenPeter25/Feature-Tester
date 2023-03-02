@@ -75,3 +75,13 @@ fetch('/data/contracts.json').then(resopnse => {
         parent.appendChild(card)
     })
 })
+
+document.querySelector(".task-container__function-bar--add").addEventListener('click',() => {
+    document.querySelector(".content-wrapper__modal-window").classList.toggle("content-wrapper__modal-window--activate")
+    document.querySelector(".overlay").classList.toggle("hidden")
+})
+
+document.querySelector(".content-wrapper__modal-window--title--cancel").addEventListener('click', () => {
+    document.querySelector(".content-wrapper__modal-window").classList.toggle("content-wrapper__modal-window--activate")
+    document.querySelector(".overlay").classList.toggle("hidden")
+})
