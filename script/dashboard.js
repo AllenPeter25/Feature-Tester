@@ -68,6 +68,12 @@ fetch('/data/data.json').then(response => {
 
 document.querySelector(".task-status__show-more")
   .addEventListener('click',() => {
+    document.querySelector(".deals_header--selector")
+            .classList?.remove("show")
+    document.querySelector(".task-status__heading--selector")
+            .classList?.remove("show")
+    document.querySelector(".tasks__header--selector")
+            .classList?.remove("show")
     document.querySelector(".task-status__data-list")
         .classList.toggle("task-status__data-list--full-list")
 
@@ -77,15 +83,27 @@ document.querySelector(".task-status__show-more")
 
 document.querySelector(".dropdown")
     .addEventListener('click', () => {
+        document.querySelector(".deals_header--selector")
+            .classList?.remove("show")
+        document.querySelector(".tasks__header--selector")
+            .classList?.remove("show")
         document.querySelector(".task-status__heading--selector").classList.toggle("show")
 })
 
 document.querySelectorAll(".dropdown")[1]
     .addEventListener('click', () => {
+        document.querySelector(".task-status__heading--selector")
+            .classList?.remove("show")
+        document.querySelector(".tasks__header--selector")
+            .classList?.remove("show")
         document.querySelector(".deals_header--selector").classList.toggle("show")
 })
 
 document.querySelectorAll(".dropdown")[2]
     .addEventListener('click', () => {
+        document.querySelector(".task-status__heading--selector")
+            .classList?.remove("show")
+        document.querySelector(".deals_header--selector")
+            .classList?.remove("show")
         document.querySelector(".tasks__header--selector").classList.toggle("show")
 })

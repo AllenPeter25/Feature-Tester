@@ -4,7 +4,6 @@ body {
    margin: 0 auto;
    font-family: 'Poppins';
    overflow-x: hidden;
-   /* overflow-y: hidden; */
 }
 
 .header {
@@ -321,7 +320,9 @@ a {
 
 .content-wrapper__modal-window--title--cancel{
     margin-left: auto;
-    margin-right: 15px;
+    margin-right: 7px;
+    padding-right: 7px;
+    border-right: 2px solid #898b8b; 
 }
 
 .content-wrapper__modal-window--activate{
@@ -356,13 +357,17 @@ input {
     height: 40px;
     padding: 0px 10px;
     border-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
 }
 
 select {
     height: 45px;
     padding: 0px 10px;
-    border-color: rgba(0, 0, 0, 0.4);
+    /* border-color: rgba(0, 0, 0, 0.4); */
+    border: 2px solid #aeb1b3;
     cursor: pointer;
+    border-radius: 5px;
+    color: #565a5e
 }
 
 option{
@@ -371,7 +376,11 @@ option{
 }
 
 input:focus {
-    border: none;
+    outline: none;
+}
+
+select:focus {
+    outline: none;
 }
 
 .content-wrapper__modal-window--title--cancel,

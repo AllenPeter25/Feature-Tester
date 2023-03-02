@@ -462,6 +462,7 @@ color: #6A707E;
     margin-top: 17px;
     margin-left: 663px;
     display: none;
+    cursor: pointer;
 }
 
 .deals_header--selector{
@@ -474,6 +475,7 @@ color: #6A707E;
     margin-top: 20px;
     margin-left: 333px;
     display: none;
+    cursor: pointer;
 }
 
 .tasks__header--selector{
@@ -486,6 +488,7 @@ color: #6A707E;
     margin-top: 17px;
     margin-left: 328px;
     display: none;
+    cursor: pointer;
 }
 
 .show{
