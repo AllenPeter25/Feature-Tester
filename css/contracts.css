@@ -22,6 +22,7 @@ body {
     font-size: 18px;
     line-height: 25px;
     color: #3498DB;
+    cursor: pointer;
 }
 
 .header__notification-icon{

@@ -4,7 +4,6 @@ body {
    margin: 0 auto;
    font-family: 'Poppins';
    overflow-x: hidden;
-   /* overflow-y: hidden; */
 }
 
 .header {
@@ -22,6 +21,7 @@ body {
     font-size: 18px;
     line-height: 25px;
     color: #3498DB;
+    cursor: pointer;
 }
 
 .header__notification-icon{
@@ -404,7 +404,7 @@ color: #6A707E;
     color: #109CF1;
     cursor: pointer;
     margin-top: 64px;
-    margin-bottom: 14px;
+    margin-bottom: 30px;
 }
 
 .task-status__show-more--disable {
@@ -424,6 +424,7 @@ color: #6A707E;
     line-height: 20px;
     letter-spacing: 0.01em;
     color: #7F8C8D;
+    margin-bottom: 12px;
 }
 
 ::-webkit-scrollbar {
@@ -439,9 +440,17 @@ color: #6A707E;
     border-radius: 10px;
 }
 
+.task-status__data-list--more:hover .icon{
+    fill: #109CF1;
+}
+
 .dropdown {
     color: #109CF1;
     cursor: pointer;
+}
+
+.more{
+    margin-left: auto;
 }
 
 .task-status__heading--selector{
@@ -481,4 +490,8 @@ color: #6A707E;
 
 .show{
     display: block;
+}
+
+.task-status__data-list--pfp {
+    margin-right: 10px;
 }
