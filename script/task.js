@@ -1,18 +1,3 @@
-const blackElements = document.querySelectorAll(".sidebar__links--text-black");
-
-document.querySelectorAll(".sidebar__links")[5].addEventListener('click',() => {
-    blackElements.forEach((x) => x.classList.toggle("collapse"))
-    document.querySelectorAll(".sidebar__links--text-blue").forEach((x) => {
-        x.classList.toggle("collapse")
-    })
-    document.querySelectorAll(".sidebar__links--toggle-theme").forEach((x) => {
-        x.classList.toggle("collapse")
-    })
-    document.querySelector(".sidebar").classList.toggle("sidebar--width")
-    document.querySelectorAll(".sidebar__links")[5].childNodes[1].classList.toggle("expand-btn")
-    document.querySelector(".task-container").classList.toggle("task-container--sidebar-collape")
-})
-
 fetch('/data/task-data.json').then(response => {
     return response.json();
 }).then(data => {
@@ -27,7 +12,6 @@ fetch('/data/task-data.json').then(response => {
         status.textContent = x.status
         const due = document.createElement("p")
         due.classList.add("task-container__list--card--font")
-        console.log(due.classList);
         due.innerHTML = `<span class="details duedate">Due Date:</span>${x.due}`
         const location = document.createElement("p")
         location.classList.add("task-container__list--card--font")
