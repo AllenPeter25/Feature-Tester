@@ -3,7 +3,7 @@ body {
    background-color:  #E5E5E5;
    margin: 0 auto;
    font-family: 'Poppins';
-   overflow-x: hidden;
+   /* overflow-x: hidden; */
 }
 
 .header {
@@ -34,7 +34,10 @@ body {
 }
 
 .header__profile-icon{
-    margin: 18px 0 18px 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+    height: 27px;
+    width: 27px;
     cursor: pointer;
 }
 
@@ -67,6 +70,12 @@ body {
     cursor: pointer;
     padding: 0 24px 0 25px;
     transition: width 1s ease-in-out;
+    height: 20px;
+    width: 171px;
+}
+
+.sidebar__links--icons {
+    width: 20px;
 }
 
 .sidebar__links--text-black {
@@ -112,7 +121,7 @@ a {
 }
 
 .sidebar-toggle{
-    margin-top: 54vh;
+    margin-top: 51vh;
 }
 
 .collapse{
@@ -155,6 +164,7 @@ a {
     font-size: 12px;
     line-height: 18px;
     color: #6A707E;
+    margin-top: -10px;
 }
 
 .deals__legend {
@@ -444,12 +454,17 @@ color: #6A707E;
     fill: #109CF1;
 }
 
+.sidebar__links:hover .icon {
+    fill: #109CF1;
+}
+
 .dropdown {
     color: #109CF1;
     cursor: pointer;
 }
 
 .more{
+    margin-top: 9px;
     margin-left: auto;
 }
 
@@ -497,4 +512,27 @@ color: #6A707E;
 
 .task-status__data-list--pfp {
     margin-right: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+.deals-graph {
+    margin-top: 10px;
+    width: 440px;
+}
+
+.task-chart {
+    width: 440px;
+}
+
+.task-status__data-list--card:last-child {
+    margin-bottom: 50px;
+}
+
+.header_icons {
+    height: 50px;
+    margin-top: 20px;
+    margin-left: auto;
+    width: 25px;
+    cursor: pointer;
 }
