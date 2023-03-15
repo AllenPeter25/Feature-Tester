@@ -3,7 +3,7 @@ body {
    background-color:  #E5E5E5;;
    margin: 0 auto;
    font-family: 'Poppins';
-   overflow-x: hidden;
+   /* overflow-x: hidden; */
 }
 
 .header {
@@ -34,7 +34,10 @@ body {
 }
 
 .header__profile-icon{
-    margin: 18px 0 18px 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+    height: 27px;
+    width: 27px;
     cursor: pointer;
 }
 
@@ -74,7 +77,6 @@ body {
     font-size: 13px;
     letter-spacing: 0.01em;
     color: #34495E;
-    margin-right: 60px;
     padding-top: 4px;
     transition: ease-in-out 0.2s;
 }
@@ -281,15 +283,34 @@ li{
 .more {
     margin-top: -5px;
     margin-left: auto;
+    width: 20px;
+    height: 10px;
     cursor: pointer;
 }
 
 .pfp{
     margin-top: -7px;
     margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .task-container__list--card--footer {
     display: flex;
     margin-top: 10px;
+}
+
+.header_icons {
+    height: 50px;
+    margin-top: 20px;
+    margin-left: auto;
+    width: 25px;
+    cursor: pointer;
+}
+
+.sidebar__links--icons {
+    height: 20px;
+    width: 20px;
 }
